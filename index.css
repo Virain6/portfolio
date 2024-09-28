@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  color: #545454;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100vw;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.name {
+  font-weight: bolder;
+  color: #00ff2a !important;
+}
+
+.profile {
+  padding: 10px;
+  background-color: rgb(67, 67, 67);
+  height: 500px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.profile:hover {
+  background-color: #00ff2a;
+}
+
+.head-stack {
+  display: flex;
+  padding-top: 50px;
+}
+
+.action {
+  display: flex;
+  color: white;
+  flex: 1;
+  flex-direction: column;
+  height: 500px;
+  width: auto;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sect {
+  padding: 20px;
+  background-color: rgb(67, 67, 67);
+  height: auto;
+  border-radius: 10px;
+  margin: 20px;
+  color: #aaa9a9;
+}
+
+.sect:hover .title {
+  color: #00ff2a;
+}
+
+button {
+  background-color: #00ff2a;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+button a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #039c1d;
+}
+
+.name {
+  margin-bottom: 0px;
+}
+
+.title {
+  color: white;
+}
+
+.description {
+  font-size: large;
+}
+
+.skill-item {
+  display: flex;
+  border-radius: 10px;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  margin: 13px;
+  border-radius: 10px;
+}
+/*for browsers that use webkit e.i safari and chrome*/
+/*for the background bar */
+progress::-webkit-progress-bar {
+  background-color: rgb(101, 101, 101);
+  border-radius: 10px;
+}
+/*for the foreground bar*/
+progress::-webkit-progress-value {
+  background-color: green !important;
+  border-radius: 10px;
+}
+
+.skill-title {
+  width: 250px;
+  padding-left: 10px;
+}
+.skill-item:hover {
+  background-color: #333;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-Item {
+  background-color: #333;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.grid-Item:hover {
+  background-color: #111;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-sec {
+  display: flex;
+  background-color: #333;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.contact-sec:hover {
+  background-color: #111;
+}
+
+.contact-sec p {
+  margin: 10px;
+}
